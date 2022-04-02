@@ -11,8 +11,24 @@ namespace Day6_Logical_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to DAY-06 Logical Problem Programms.");
-            _1FibonacciSeries.FiboSeries();
-                Console.ReadLine();
+            int n = Convert.ToInt32(Console.ReadLine());
+            switch(n)
+            {
+                case 1:
+                    _1FibonacciSeries.FiboSeries();
+                    Console.ReadLine();
+                    break;
+                case 2:
+                    PerfectNumber.FindPerfectNum();
+                    break;
+                default:
+                    Console.WriteLine("something went wrong........");
+                    break;
+
+            }
+            Console.ReadLine();
+
+
         }
     }
 }
