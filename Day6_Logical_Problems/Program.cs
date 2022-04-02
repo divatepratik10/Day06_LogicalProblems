@@ -21,6 +21,9 @@ namespace Day6_Logical_Problems
                 case 2:
                     PerfectNumber.FindPerfectNum();
                     break;
+                case 3:
+                    PrimeNumber.Findprime();
+                    break;
                 default:
                     Console.WriteLine("something went wrong........");
                     break;
