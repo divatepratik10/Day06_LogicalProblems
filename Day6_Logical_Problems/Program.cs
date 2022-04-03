@@ -24,6 +24,9 @@ namespace Day6_Logical_Problems
                 case 3:
                     PrimeNumber.Findprime();
                     break;
+                case 4:
+                    ReverseNumber.REVERSEtheNUMBER();
+                    break;
                 default:
                     Console.WriteLine("something went wrong........");
                     break;
