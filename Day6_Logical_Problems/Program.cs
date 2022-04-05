@@ -27,6 +27,9 @@ namespace Day6_Logical_Problems
                 case 4:
                     ReverseNumber.REVERSEtheNUMBER();
                     break;
+                case 5:
+                    CouponNumber.DistinctCoupon();
+                    break;
                 default:
                     Console.WriteLine("something went wrong........");
                     break;
