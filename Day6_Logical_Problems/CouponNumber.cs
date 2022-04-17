@@ -15,7 +15,7 @@ namespace Day6_Logical_Problems
             Random random = new Random();
             List<int> list = new List<int>();
             int i = 0, count = 0;
-            while (i <= num)
+            while (i < num)
             {
                 int res = random.Next(1, 101);
                 count++;
@@ -30,6 +30,8 @@ namespace Day6_Logical_Problems
                     continue;
                 }
             }
+            Console.WriteLine("the count value is : {0}",count);
+
         }
     }
 }

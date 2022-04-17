@@ -30,6 +30,9 @@ namespace Day6_Logical_Problems
                 case 5:
                     CouponNumber.DistinctCoupon();
                     break;
+                case 6:
+                    StopWat.StpWch();   
+                    break;
                 default:
                     Console.WriteLine("something went wrong........");
                     break;
