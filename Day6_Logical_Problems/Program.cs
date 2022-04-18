@@ -10,7 +10,10 @@ namespace Day6_Logical_Problems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to DAY-06 Logical Problem Programms.");
+            Console.WriteLine("Welcome to DAY-06 Logical Problem Programms.\n");
+            Console.WriteLine("Choose between following options.\n");
+            Console.WriteLine("1 : Fibonacci_Series\n2 : Perfect_Number\n3 : Prime_Number\n4 : Reverse_Number\n5 : Coupen_Number\n" +
+                "6 : Stopwatch\n7 : Vending_Machine");
             int n = Convert.ToInt32(Console.ReadLine());
             switch(n)
             {
@@ -32,6 +35,9 @@ namespace Day6_Logical_Problems
                     break;
                 case 6:
                     StopWat.StpWch();   
+                    break;
+                case 7:
+                    VendingMachine.ReturnNotes();
                     break;
                 default:
                     Console.WriteLine("something went wrong........");
