@@ -13,7 +13,7 @@ namespace Day6_Logical_Problems
             Console.WriteLine("Welcome to DAY-06 Logical Problem Programms.\n");
             Console.WriteLine("Choose between following options.\n");
             Console.WriteLine("1 : Fibonacci_Series\n2 : Perfect_Number\n3 : Prime_Number\n4 : Reverse_Number\n5 : Coupen_Number\n" +
-                "6 : Stopwatch\n7 : Vending_Machine\n8 : Day_of_Week");
+                "6 : Stopwatch\n7 : Vending_Machine\n8 : Day_of_Week\n8 : Temperature_Convert\n9 : \n10 : ");
             int n = Convert.ToInt32(Console.ReadLine());
             switch(n)
             {
@@ -41,6 +41,15 @@ namespace Day6_Logical_Problems
                     break;
                 case 8:
                     DayofWeek.FindDay();
+                    break;
+                case 9:
+                    TempConversion.TemperatureConvert();
+                    break;
+                case 10:
+                    break;
+                case 11:
+                    break;
+                case 12:
                     break;
                 default:
                     Console.WriteLine("something went wrong........");
